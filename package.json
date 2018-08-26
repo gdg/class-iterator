@@ -1,8 +1,11 @@
 {
-  "name": "@gdg/class-iterator",
+  "name": "class-iterator",
   "version": "0.1.0",
   "description": "Class: iterator; composable module.",
-  "repository": "gdg/class-iterator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gdg/class-iterator.git"
+},
   "main": "index.js",
   "scripts": {
     "release": "standard-version",
