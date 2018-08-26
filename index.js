@@ -1,0 +1,6 @@
+/**
+ * GDG™
+ * 
+ * @gdg/class-iterator
+ * 
+ */
