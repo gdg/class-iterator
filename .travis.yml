@@ -2,8 +2,6 @@ language: node_js - '10' - '8' - '6'
 deploy:
   provider: npm
   email: thariri@gdg.io
-  api_key:
-    secure: it/Ye3W2nMQ0T2R7IsnM2jRK4qzGbxHgQHwkrp11Xw2Z6j7Hjvqb+NNonPL1TvFj/oKEjNAZ37fbl59MN0/jA55bAiRbwL3w1MvSCU095zme0NdvpaRpv0Aymihftmf0LZBDkx1w0QxCAiLJDPIuNImgq2NTRW2hM2eeoWCIFQoZmWeloUiUeccn+XeaVtQQ9PkdMUTl6NXyKMm/L6TREeVIGYZdEh2BYDoPmMW1uHFOksF9SHFrxUR5rSdA4HiD65DHyzXUd6eN3InRMdK3IBTvkhXcIaEr7NjcNuXGk0hyW41GTcuT9gVlZqqXBhtaKKNGUf5/b9xWuKzcZ1npDyo5AA1zW4Fd8LJWgwmsEGoB2UjciWgVijQzCaXBbKXIWuHB8XK+BFMkn2VQwSeP9XqZXT72dnRkLDcX4bUuci0WTQaogqsnsxFqfuUz4xIVAYCJe+41QRkwEDgvSthfG5STLE37pSYE3frRYmjVU/Bc2in0lzzexAJzbpOxVGb7p2q6y+hrMResxz0iWRHLEHbwwlTr8QrjjLuQy+tXJlkvwdECdFzff5/fN2zYxj81i6pL5yX0TUbkr2fG2tzJ3KxmGX/gYHWX21jNRI+vxYys2UM/RRIjYP327BKAGOVzRh70ntA68Tm21y7SJFYh1ZiOoBTnd9UqA9T2+Wn2O4o=
+  api_key: $NPM_TOKEN
   on:
     tags: true
-    repo: gdg/class-iterator
