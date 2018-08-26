@@ -5,10 +5,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/gdg/class-iterator.git"
-},
+  },
   "main": "index.js",
   "scripts": {
-    "release": "standard-version",
+    "release": "standard-version"
   },
   "keywords": [
     "gdg",
